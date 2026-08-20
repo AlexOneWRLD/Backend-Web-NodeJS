@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { UserService } from './user.sevice';
+import { UserService } from './features/users/user.sevice';
 import { User } from '../generated/prisma/client';
 
 @Controller('api')
