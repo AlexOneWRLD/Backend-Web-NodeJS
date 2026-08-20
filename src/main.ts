@@ -8,7 +8,7 @@ async function bootstrap() {
   // swagger
   const config = new DocumentBuilder()
     // заголовок
-    .setTitle('Title')
+    .setTitle('UserSevice')
     // описание
     .setDescription('Description')
     // версия
